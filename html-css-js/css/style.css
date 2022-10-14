@@ -1,0 +1,108 @@
+body {
+  width: 100vw;
+  height: 100%;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  color: #42597b;
+  background-image: linear-gradient(225deg, rgb(61, 245, 167) 11.2%, rgb(9, 111, 224) 91.1%);
+  background-size: cover;
+  background-position: center;
+}
+
+.task-frontend {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 410px;
+  height: 540px;
+  text-align: center;
+  border-radius: 20px;
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.37);
+}
+.task-frontend img {
+  width: 50px;
+  height: 50px;
+  margin-top: 22px;
+  margin-bottom: -22px;
+}
+.task-frontend h1 p {
+  font-size: 20px;
+  font-weight: bold;
+}
+.task-frontend form {
+  padding-top: 1px;
+}
+.task-frontend input[type=text],
+.task-frontend input[type=email] {
+  display: block;
+  width: 300px;
+  height: 30px;
+  margin: 10px auto 20px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+.task-frontend input {
+  padding-left: 15px;
+}
+.task-frontend :focus::-moz-placeholder {
+  color: #42597b;
+}
+.task-frontend :focus:-ms-input-placeholder {
+  color: #42597b;
+}
+.task-frontend :focus::placeholder {
+  color: #42597b;
+}
+.task-frontend input[type=email] {
+  margin-bottom: 40px;
+}
+.task-frontend h2 p {
+  font-size: 18px;
+  font-weight: normal;
+}
+.task-frontend table {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  margin-top: -10px;
+}
+.task-frontend table td {
+  padding: 0px 25px;
+}
+.task-frontend label {
+  text-transform: lowercase;
+}
+.task-frontend input[type=checkbox] {
+  border: none;
+}
+.task-frontend input[type=submit] {
+  padding: 0;
+}
+.task-frontend input[type=submit] {
+  width: 100px;
+  height: 40px;
+  margin-top: 45px;
+  border-radius: 20px;
+  border: none;
+  letter-spacing: 1px;
+  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  background-color: #42597b;
+  transition: background-color 0.3s;
+}
+.task-frontend input[type=submit]:hover {
+  cursor: pointer;
+  background-color: #3580f1;
+}
+.task-frontend input[type=checkbox]:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

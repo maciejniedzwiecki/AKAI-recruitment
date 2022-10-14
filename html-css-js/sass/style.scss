@@ -1,0 +1,132 @@
+$dark-blue: #42597b;
+$light-blue: #3580f1;
+$shadow: 5px 5px 3px rgba(0, 0, 0, 0.2);
+// $shadow-inside: inset 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
+
+body {
+	width: 100vw;
+	height: 100%;
+
+	font-family: 'Nunito', sans-serif;
+	font-size: 18px;
+	color: $dark-blue;
+	background-image: linear-gradient(225deg, rgba(61, 245, 167, 1) 11.2%, rgba(9, 111, 224, 1) 91.1%);
+	background-size: cover;
+	background-position: center;
+}
+
+.task-frontend {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	width: 410px;
+	height: 540px;
+	text-align: center;
+	border-radius: 20px;
+	backdrop-filter: blur(20px);
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	background-color: rgba(255, 255, 255, 0.6);
+	box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.37);
+
+	img {
+		width: 50px;
+		height: 50px;
+		margin-top: 22px;
+		margin-bottom: -22px;
+	}
+
+	h1 {
+		p {
+			font-size: 20px;
+			font-weight: bold;
+		}
+	}
+
+	form {
+		padding-top: 1px;
+	}
+
+	input[type='text'],
+	input[type='email'] {
+		display: block;
+		width: 300px;
+		height: 30px;
+		margin: 10px auto 20px;
+
+		border-radius: 20px;
+		border: none;
+		box-shadow: $shadow;
+		outline: none;
+		// box-shadow: $shadow-inside;
+	}
+
+	input {
+		padding-left: 15px;
+	}
+
+	:focus::placeholder {
+		color: $dark-blue;
+	}
+
+	input[type='email'] {
+		margin-bottom: 40px;
+	}
+
+	h2 {
+		p {
+			font-size: 18px;
+			font-weight: normal;
+		}
+	}
+
+	table {
+		display: flex;
+		position: relative;
+		align-items: center;
+		justify-content: center;
+
+		text-align: left;
+		margin-top: -10px;
+
+		td {
+			padding: 0px 25px;
+		}
+	}
+
+	label {
+		text-transform: lowercase;
+	}
+
+	input[type="checkbox"]{
+		border: none;
+	}
+
+	input[type='submit'] {
+		padding: 0;
+	}
+
+	input[type='submit'] {
+		width: 100px;
+		height: 40px;
+		margin-top: 45px;
+
+		border-radius: 20px;
+		border: none;
+		letter-spacing: 1px;
+		box-shadow: $shadow;
+		color: #fff;
+		background-color: $dark-blue;
+		transition: background-color 0.3s;
+	}
+
+	input[type='submit']:hover {
+		cursor: pointer;
+		background-color: $light-blue;
+	}
+
+	input[type='checkbox']:hover {
+		cursor: pointer;
+	}
+}
