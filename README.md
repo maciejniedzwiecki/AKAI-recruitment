@@ -1,15 +1,12 @@
-# Rekrutacja 2022
+# AKAI Recruitment 📱
 
-Repozytorium z paczkami zadań na rekrutację 2022. 
+My name is Maciej Niedźwiecki. I am a student of the Poznan University of Technology in the field of Electronics and Telecommunications. I started learning frontend technologies this summer vacation and I enjoyed it a lot.
 
-## Zasady
+Here is my solution to the AKAI recruitment task. I would like to develop my frontend skills at the science club. That's why I decided to apply. I am new to the community and I would like to gain the necessary practice experience.
 
-Kandydaci na członków koła mają do wyboru kilka pakietów zadań. Każdy z pakietów jest umieszczony w osobnym katalogu na tym repozytorium. Wymagamy, aby kandydat wykonał zadania z przynajmniej jednego, dowolnego pakietu. 
+That was the first time when I have used javascript in my project. It wasn't as bad as I imagined. I read a few articles and tried to handle it. Now I am going to complete my javascript course to create better projects in the future.
 
-Zadania są ułożone tak, aby były niezwykle proste do rozwiązania. Wszystko czego wymagamy od kandydata to determinacja i za pomocą tych zadań chcemy sprawdzić, czy kandydat takową posiada. Zadania można rozwiązać w parę chwil korzystając z Google. 
+## Useful links 💻
 
-Powodzenia!
-
-## Dostarczenie rozwiązań
-
-Rozwiązania prosimy przesyłać poprzez wypełnienie formularza dostępnego pod adresem https://forms.gle/AnXKm6bMcAqi88gi9.
+- Live Site URL: [AKAI Recruitment Form](https://maciejniedzwiecki.github.io/AKAI-recruitment/)
+- My profile on Frontend Mentor: [@maciejniedzwiecki](https://www.frontendmentor.io/profile/maciejniedzwiecki)
